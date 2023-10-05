@@ -1,0 +1,29 @@
+/*Tentative color scheme
+major: #EBE9E9
+font: #776D5A
+other: #2A2E45
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: black;
+}
+
+#welcomeHeader{
+    display:flex;
+    font-size: 48px;
+    justify-content: space-between;
+    font-family: 'ArcadeClassic', sans-serif;
+    color: #EBE9E9;
+    margin-left: 20%;
+} 
+
+#quotation{
+    display: flex;
+    font-size: 30px;
+    font-family: 'ArcadeClassic', sans-serif;
+    color: #EBE9E9;
+    margin-left: 22%;
+}
