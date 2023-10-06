@@ -12,20 +12,9 @@
 
 <body>
     <header id="page_header">
-
-        <div id="logoContainer"> <!--Logo pic of me and a heading-->
-            
-            <span id="welcomeHeader">Welcome to Michael Jiang's Portfolio Website</span>
-        </div> 
-
-        <div id="quotation"> <!--quotation from some personality that resonates with me-->
-            <p>In the middle of difficulty lies opportunity. - Albert Einstein</p>
-        </div>
-        
-        
         <nav class="navbar"> <!--navigation bar contains all 3 webpages-->
             <div class="logo">
-                <img src="./img/me.png" alt="picture of me" height="90" width="80">
+                <a href="./index.html"><img src="./img/ghost.png" alt="picture of a pixle ghost" height="80" width="80"></a>
             </div>
 
             <input type="checkbox" id="checkbox_toggle"/>
@@ -39,19 +28,31 @@
                 </ul>
             </div>
         </nav>
+        <div id="logoContainer"> <!--Logo pic of me and a heading-->
+            <span id="welcomeHeader">Welcome to Michael Jiang's Portfolio Website</span>
+        </div> 
+
+        <div id="quotation"> <!--quotation from some personality that resonates with me-->
+            <p>In the middle of difficulty lies opportunity. - Albert Einstein</p>
+        </div>
         
         <hr>
         <div id="introductionParagraph"> <!--brief paragraphs to introduce myself-->
             <p>Hello, I am Michael Jiang. I am currently a senior Computer Science student at Oakland University.</p>
             <p>I am also an international student from China. My Chinese name is Huayu Jiang.</p>
-            <p>My future professional interest would be Software Developer/Engineer, Web Developer, Game Designer/Developer... Pretty much any CS related positions. </p>
+            <p>My future professional interest would be Software Developer/Engineer, Web Developer, Game Designer/Developer... </p>
             <p>To know more about me, please check <a href="./html/my_resume.html">My Resume Page</a> and <a href="./html/my_fun_facts.html"> Fun Facts About Me</a>.</p>
-        </div>
-        
-        <div id="progressBarContainer"> <!--progress bar showing how many credits i have taken-->
+            <!--progress bar showing how many credits i have taken-->
             <progress id="progressBar" value="122" max="130"></progress>
             <span id="progress-label">122/130(94%) Course Credits Taken</span>
         </div>
+
+        <div class="selfie">
+            <img src="./img/me.png" alt="picture of a pixle ghost" height="540" width="480">
+        </div>
+        
+        
+        
     </header>
     <hr>
     <footer> <!--copyright, email, social media, etc.-->
