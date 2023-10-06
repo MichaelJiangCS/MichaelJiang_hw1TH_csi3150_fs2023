@@ -5,14 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Big Mike's Website</title><!--webpage title & favicon-->
     <link rel="shortcut icon" href="../img/me.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/styling.css">
+    <link href="https://fonts.cdnfonts.com/css/arcade-classic" rel="stylesheet">
 </head>
 <body>
     <header id="page_header">
         <div id="navContainer">
-            <nav id="navBar">  <!--navigation bar contains all 3 webpages-->
-                <a href="../index.html" class="navOption">Home</a>
-                <a href="./my_resume.html" class="navOption">Resume</a>
-                <a href="./my_fun_facts.html" class="navOption">Fun Facts About Me</a>
+            <nav class="navbar"> <!--navigation bar contains all 3 webpages-->
+                <div class="logo">
+                    <a href="../index.html"><img src="../img/ghost.png" alt="picture of a pixle ghost" height="80" width="80"></a>
+                </div>
+    
+                <input type="checkbox" id="checkbox_toggle"/>
+                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                
+                <div class="menu">
+                    <ul>
+                        <li><a href="../index.html" class="navOption">Home</a></li>
+                        <li><a href="./my_resume.html" class="navOption">Resume</a></li>
+                        <li><a href="./my_fun_facts.html" class="navOption">Fun Facts About Me</a></li>
+                    </ul>
+                </div>
             </nav>
         </div>
         <hr>
